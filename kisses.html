@@ -1,3 +1,9 @@
 ---
 layout: kop
 ---
+<div class="post-outer-container">
+    {% assign data-set = site.data.datafile | where:"cat","kiss" %}
+    {% for data in data-set %}
+        {% include body-content.html %}
+    {% endfor %}
+</div>
