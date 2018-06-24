@@ -1,0 +1,37 @@
+---
+layout: kop
+---
+<div class="post-outer-container">
+    {% for data in site.data.datafile %}
+        <div class="post-main-container flex">
+            <div class="post-content">
+                <div class="post-category">
+                    <img src="/assets/images/{{ data.cat }}.png" alt="">
+                </div>
+                <div class="post-title">
+                    {{ data.title }}
+                </div>
+                <div class="post-description">
+                    {{ data.content }}
+                </div>
+                <div class="post-author-share flex">
+                    <div class="post-author">
+                        Observed by <span><a href="#">{{ data.author }}</a></span>
+                    </div>
+                    <div class="post-share flex">
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-media">
+                <img src="/assets/images/{{ data.imagename }}.jpg" alt="">
+            </div>
+        </div>
+    {% endfor %}
+</div>
