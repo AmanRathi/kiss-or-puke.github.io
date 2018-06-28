@@ -65,18 +65,18 @@ a{
     border-radius: 6px;
     padding: 20px;
     margin: 60px auto;
+    position: relative;
 }
 
 .post-category{
     width: 60px;
-    position: relative;
-    left: -50px;
-    top: -50px;
+    position: absolute;
+    left: -10px;
+    top: -30px;
 }
 
 .post-category img{
     width: 100%;
-    position: absolute;
 }
 
 .post-content{
@@ -118,4 +118,21 @@ a{
 .post-author span a{
     color: #2A2A2A;
     font-weight: bold;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 899px){
+    .post-main-container{
+        flex-wrap: wrap-reverse;
+    }
+    .post-content, .post-media{
+        width: 100%;
+    }
+    .post-media{
+        padding-left: 0px;
+    }
+    .post-category{
+        left: -5px;
+        top: -38px;
+    }
 }
