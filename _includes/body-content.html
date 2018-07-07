@@ -1,7 +1,7 @@
 <div class="post-main-container flex">
     <div class="post-content">
         <div class="post-category">
-            <img src="assets/images/{{ data.cat }}.png" alt="">
+            <img src="{{ site.baseurl }}/assets/images/{{ data.cat }}.png" alt="">
         </div>
         <div class="post-title">
             {{ data.title }}
@@ -25,6 +25,6 @@
     </div>
 
     <div class="post-media">
-        <img src="{{ site.baseurl }}/assets/images/{{ data.imagename }}.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/images/{{ data.imagename }}.jpg" alt="{{ data.imagename }}">
     </div>
 </div>
