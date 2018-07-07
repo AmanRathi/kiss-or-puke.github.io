@@ -1,7 +1,7 @@
 ---
 title:  "Super Awesome post title comes here, ladies and gentleman"
 date:   2018-06-16 19:38:30 +0530
-categories: puke
+categories: kiss
 author: 'Aman Rathi'
 authurl: 'https://twitter.com/amanrathi'
 imagename: 'food'

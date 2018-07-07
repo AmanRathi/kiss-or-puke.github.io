@@ -2,7 +2,7 @@
 layout: kop
 ---
 <div class="post-outer-container">
-    {% assign data-set = site.data.datafile | where:"cat","kiss" %}
+    {% assign data-set = site.posts | where:"categories","kiss" %}
     {% for data in data-set %}
         {% include body-content.html %}
     {% endfor %}
