@@ -1,8 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'somefontname', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1px;
+    background-color: #F1F3F4;
 }
 
 *{
@@ -41,6 +42,9 @@ a{
 
 .main-nav li a{
     padding: 10px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4px;
 }
 
 .selected-nav{
@@ -61,7 +65,7 @@ a{
 .post-main-container{
     width: 96%;
     max-width: 940px;
-    border: 1px solid #D1D2D7;
+    background-color: #FFFFFF;
     border-radius: 6px;
     padding: 20px;
     margin: 60px auto;
@@ -95,18 +99,19 @@ a{
 }
 
 .post-title{
-    font-size: 28px;
-    font-weight: bold;
-    color: #2A2A2A;
-    line-height: 34px;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    color: #2B2B2B;
+    line-height: 32px;
     margin-bottom: 12px;
     margin-top: 20px;
 }
 
 .post-description{
-    color: #7C7C7C;
-    font-size: 14px;
-    line-height: 22px;
+    color: #7A7A7A;
+    font-size: 15px;
+    line-height: 24px;
     margin-bottom: 20px;
 }
 
