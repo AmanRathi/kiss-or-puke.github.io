@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: 0.1px;
     background-color: #F1F3F4;
 }
@@ -117,7 +117,6 @@ a{
     font-weight: 700;
     letter-spacing: .2px;
     color: #2B2B2B;
-    line-height: 32px;
     margin-bottom: 12px;
     margin-top: 20px;
 }
@@ -125,7 +124,7 @@ a{
 .post-description{
     color: #7A7A7A;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 22px;
     margin-bottom: 20px;
 }
 
