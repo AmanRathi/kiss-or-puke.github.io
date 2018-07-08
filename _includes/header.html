@@ -1,12 +1,13 @@
 <div class="flex header">
     <a href="{{ site.baseurl }}" class="logo">
-        Logo will come here
+        <img src="{{ site.baseurl }}/assets/images/kiss-puke-logo.png" alt="">
     </a>
     <nav>
         <ul class="main-nav flex">
             <li> <a class="{% if page.url == '/' %}selected-nav{% endif %}" href="index.html">All Feeds</a> </li>
             <li> <a class="{% if page.url == '/kisses.html' %}selected-nav{% endif %}" href="kisses.html">Kisses</a> </li>
             <li> <a class="{% if page.url == '/pukes.html' %}selected-nav{% endif %}" href="pukes.html">Pukes</a> </li>
+            <li> <a class="{% if page.url == '/about.html' %}selected-nav{% endif %} about-us-mob" href="about.html">About us</a> </li>
         </ul>
     </nav>
     <div class="about-sec">

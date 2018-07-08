@@ -24,7 +24,7 @@ a{
 
 .header{
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
     background-color: #2B2B2B;
     color: #FFCB03;
     align-items: center;
@@ -32,6 +32,12 @@ a{
 
 .logo{
     padding-left: 20px;
+    width: 230px;
+}
+
+.logo img{
+    width: 100%;
+    margin-top: 5px;
 }
 
 .main-nav{
@@ -41,10 +47,18 @@ a{
 }
 
 .main-nav li a{
-    padding: 10px 15px;
+    padding: 8px 8px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .4px;
+}
+
+.main-nav li{
+    margin-right: 10px;
+}
+
+.about-us-mob{
+    display: none;
 }
 
 .selected-nav{
@@ -140,6 +154,28 @@ a{
     .post-category{
         left: -5px;
         top: -38px;
+    }
+}
+
+
+/* Header responsive media queries */
+@media only screen and (max-width: 767px){
+    .header{
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-around;
+    }
+
+    .main-nav{
+        font-size: 12px;
+    }
+
+    .about-sec{
+        display: none;
+    }
+
+    .about-us-mob{
+        display: initial;
     }
 }
 
