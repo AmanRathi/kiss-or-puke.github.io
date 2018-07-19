@@ -1,6 +1,6 @@
 ---
 title: "Lyft’s new design is inconsistent to the app world but it make sense"
-date: 2018-07-20 19:38:30 +0530
+date: 2018-07-19 19:38:30 +0530
 categories: kiss
 author: 'Aman Rathi'
 authurl: 'https://twitter.com/amanrathi'
