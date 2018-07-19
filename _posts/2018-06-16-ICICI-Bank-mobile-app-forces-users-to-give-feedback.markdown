@@ -1,6 +1,6 @@
 ---
-title:  "ICICI Bank mobile app forces users to give feedback"
-date:   2018-06-17 19:38:30 +0530
+title: "ICICI Bank mobile app forces users to give feedback"
+date: 2018-06-17 19:38:30 +0530
 categories: puke
 author: 'Aman Rathi'
 authurl: 'https://twitter.com/amanrathi'

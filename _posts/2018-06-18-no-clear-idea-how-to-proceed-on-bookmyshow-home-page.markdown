@@ -1,6 +1,6 @@
 ---
-title:  "No clear idea how to proceed on Bookmyshow home page"
-date:   2018-06-16 19:38:30 +0530
+title: "No clear idea how to proceed on Bookmyshow home page"
+date: 2018-06-16 19:38:30 +0530
 categories: puke
 author: 'Aman Rathi'
 authurl: 'https://twitter.com/amanrathi'
