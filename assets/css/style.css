@@ -25,9 +25,12 @@ a{
 .header{
     justify-content: space-between;
     height: 60px;
-    background-color: #2B2B2B;
-    color: #FFCB03;
+    background-color: #fff;
+    color: #828282;
     align-items: center;
+    border-bottom: 1px solid #dbdae2;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .logo{
@@ -48,13 +51,12 @@ a{
 
 .main-nav li a{
     padding: 8px 8px;
-    font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: .4px;
 }
 
 .main-nav li{
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .about-us-mob{
@@ -62,9 +64,7 @@ a{
 }
 
 .selected-nav{
-    background-color: #FFCB03;
-    color: #2B2B2B;
-    border-radius: 4px;
+    color: #262727;
 }
 
 .about-sec{
